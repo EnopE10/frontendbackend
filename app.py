@@ -31,5 +31,3 @@ def bfhl():
 def process_get_request():
     return jsonify({"operation_code": 1})
 
-if __name__ == '__main__':
-    app.run(debug=True)
